@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Criptografar Alura</title>
+</head>
+<body>
+    <header>
+        <img src="src/logo.png" alt="" width="100px">
+    </header>
+    <main>
+        <section class="section1">
+            <div class="caixatexto">
+                <textarea placeholder="Digite seu texto" class="caixa"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="src/alerta.png" alt="">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="buttons">
+                <input type="button" class="btn-criptografar" value="Criptografar">
+                <input type="button" class="btn-descriptografar" value="Descriptografar">
+            </div>
+        </section>
+        <section class="section2">
+            <div class="boneco">
+                <img src="src/menino.svg" alt="">
+            </div>
+            <div class="paragrafo">
+                <h3>Nenhuma mensagem encontrada</h3>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <div class="copiar">
+                <input type="button" value="Copiar" class="btn-copiar">
+            </div>
+            <div class="resultado">
+                <p class="texto-resultado"></p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
